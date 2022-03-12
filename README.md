@@ -6,6 +6,15 @@ Reactive Gamedev is about making games using JavaScript, React and related web d
 
 ## The Building Blocks
 
+For game development, you may be used to thinking in terms of _engines_. Here, instead of think of _stacks_ of different libraries and tools, similar to how any other web applications are built. The stack described in this document revolves around the following components:
+
+- React, for expressing application structure and logic as components and functions
+- Three.js, for managing a 3D scene powered by WebGL
+- react-three-fiber, for providing a React layer for Three.js
+- Vite and CRA, for enabling super-fast iteration thanks to hot-module replacement
+
+Let's go into each of these in a little more detail.
+
 ### React
 
 React, which you have very likely already heard of, is the massively popular JavaScript library that describes itself as:
